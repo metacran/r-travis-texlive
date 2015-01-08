@@ -59,7 +59,7 @@ InstallPackage() {
 }
 
 InstallExtra() {
-    InstallPackage inconsolata texinfo ec times helvetic courier
+    InstallPackage inconsolata texinfo ec times helvetic courier hyper
 }
 
 Deploy() {
