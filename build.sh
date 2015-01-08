@@ -37,7 +37,7 @@ CreateProfile() {
 }
 
 Download() {
-    #    curl -L ${INSTALLER} | tar xzv
+    curl -L ${INSTALLER} | tar xzv
     true
 }
 
@@ -45,7 +45,7 @@ Install() {
     (
 	mkdir -p $PREFIX
 	cd install-tl-*
-	# ./install-tl --profile=../texlive.profile
+	./install-tl --profile=../texlive.profile
     )
 }
 
