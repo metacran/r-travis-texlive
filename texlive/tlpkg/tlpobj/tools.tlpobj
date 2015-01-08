@@ -1,0 +1,60 @@
+name tools
+category Package
+revision 35577
+shortdesc The LaTeX standard tools bundle.
+relocated 1
+longdesc A collection of (variously) simple tools provided as part of
+longdesc the LaTeX required tools distribution, comprising the packages:
+longdesc afterpage, array, bm, calc, dcolumn, delarray, enumerate,
+longdesc fileerr, fontsmpl, ftnright, hhline, indentfirst, layout,
+longdesc longtable, multicol, rawfonts, showkeys, somedefs, tabularx,
+longdesc theorem, trace, varioref, verbatim, xr, and xspace.
+containersize 38388
+containermd5 f669071c58b4bb7937fc83056b3a9f74
+doccontainersize 2818948
+doccontainermd5 ef025b0afb79f99232ddf2a648a4ae05
+srccontainersize 212096
+srccontainermd5 d5e321345674a1985ec1ca65b4ec6030
+runfiles size=77
+ texmf-dist/tex/latex/tools/.tex
+ texmf-dist/tex/latex/tools/afterpage.sty
+ texmf-dist/tex/latex/tools/array.sty
+ texmf-dist/tex/latex/tools/bm.sty
+ texmf-dist/tex/latex/tools/calc.sty
+ texmf-dist/tex/latex/tools/dcolumn.sty
+ texmf-dist/tex/latex/tools/delarray.sty
+ texmf-dist/tex/latex/tools/e.tex
+ texmf-dist/tex/latex/tools/enumerate.sty
+ texmf-dist/tex/latex/tools/fontsmpl.sty
+ texmf-dist/tex/latex/tools/fontsmpl.tex
+ texmf-dist/tex/latex/tools/ftnright.sty
+ texmf-dist/tex/latex/tools/h.tex
+ texmf-dist/tex/latex/tools/hhline.sty
+ texmf-dist/tex/latex/tools/indentfirst.sty
+ texmf-dist/tex/latex/tools/layout.sty
+ texmf-dist/tex/latex/tools/longtable.sty
+ texmf-dist/tex/latex/tools/multicol.sty
+ texmf-dist/tex/latex/tools/q.tex
+ texmf-dist/tex/latex/tools/r.tex
+ texmf-dist/tex/latex/tools/rawfonts.sty
+ texmf-dist/tex/latex/tools/s.tex
+ texmf-dist/tex/latex/tools/showkeys.sty
+ texmf-dist/tex/latex/tools/somedefs.sty
+ texmf-dist/tex/latex/tools/tabularx.sty
+ texmf-dist/tex/latex/tools/thb.sty
+ texmf-dist/tex/latex/tools/thc.sty
+ texmf-dist/tex/latex/tools/thcb.sty
+ texmf-dist/tex/latex/tools/theorem.sty
+ texmf-dist/tex/latex/tools/thm.sty
+ texmf-dist/tex/latex/tools/thmb.sty
+ texmf-dist/tex/latex/tools/thp.sty
+ texmf-dist/tex/latex/tools/trace.sty
+ texmf-dist/tex/latex/tools/varioref.sty
+ texmf-dist/tex/latex/tools/verbatim.sty
+ texmf-dist/tex/latex/tools/verbtest.tex
+ texmf-dist/tex/latex/tools/x.tex
+ texmf-dist/tex/latex/tools/xr.sty
+ texmf-dist/tex/latex/tools/xspace.sty
+catalogue-ctan /macros/latex/required/tools
+catalogue-date 2014-10-31 15:58:02 +0100
+catalogue-license lppl1.3

@@ -1,0 +1,9 @@
+name texlive-en
+category TLCore
+revision 35563
+shortdesc TeX Live manual (English)
+relocated 1
+containersize 276
+containermd5 e1135468f177f6cbd8fdca3728eb6fc6
+doccontainersize 1612240
+doccontainermd5 40d9556860d453529ec3807681451aab
