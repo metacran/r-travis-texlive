@@ -7,15 +7,12 @@ export PATH="/usr/local/bin:$PATH"
 if [ "$DRONE" == "true" ]; then
     export CI="drone"
     export REPO_SLUG=$(echo "$DRONE_REPO_SLUG" | sed -s '/github\.com\///')
-    export ADD_REPO="sudo add-apt-repository -y -s"
 elif [ "$SEMAPHORE" == "true" ]; then
     export CI="semaphore"
     export REPO_SLUG="$SEMAPHORE_REPO_SLUG"
-    export ADD_REPO="sudo add-apt-repository -y -s"
 elif [ "$TRAVIS" == "true" ]; then
     export CI="travis"
     export REPO_SLUG="$TRAVIS_REPO_SLUG"
-    export ADD_REPO="sudo add-apt-repository"
 else
     echo "Unknown CI"
     exit 1
