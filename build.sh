@@ -1,8 +1,8 @@
-#! /bin/sh
+#! /bin/bash
 
 set -ex
 
-export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
 
 if [ "$DRONE" == "true" ]; then
     export CI="drone"
