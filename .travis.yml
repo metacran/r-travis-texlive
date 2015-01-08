@@ -1,0 +1,18 @@
+
+language: c
+
+script:
+- ./build.sh
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+
+branches:
+  only:
+  - master
+
+env:
+  global:
+    secure: VOBdiBaSU/ShSU7m744WGrHbhYxTi8xUeAsEZna8/6+NjNw+v244DvTV2U4jPcLA+c6WG5r5XM1NnEn3XUzSCo3WZAw6Xr/EPC4Y/2abTEU6JYuD14xFgdTBRYczdI3OP3fB6+E4c1oZRzRjQIV6DoYNgXWQCJo3PvLjWnNSM4U=

@@ -84,7 +84,7 @@ Deploy() {
 	git config credential.helper "store --file=.git/credentials"
 	python -c 'import os; print "https://" + os.environ["GH_TOKEN"] + ":@github.com"' > .git/credentials
 
-	git commit -q --allow-empty -m "Building R ${version} on ${CI}"
+	git commit -q --allow-empty -m "Building on ${CI} ${OS}"
 	git tag -d ${tag} || true
 	git tag ${tag}
 	git push -f --tags -q origin ${branch}
